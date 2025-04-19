@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/WildWatt/static/css/main.0f3eed3d.css",
+    "main.css": "/WildWatt/static/css/main.52982b8c.css",
     "main.js": "/WildWatt/static/js/main.40ae7ca7.js",
     "index.html": "/WildWatt/index.html",
-    "main.0f3eed3d.css.map": "/WildWatt/static/css/main.0f3eed3d.css.map",
+    "main.52982b8c.css.map": "/WildWatt/static/css/main.52982b8c.css.map",
     "main.40ae7ca7.js.map": "/WildWatt/static/js/main.40ae7ca7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f3eed3d.css",
+    "static/css/main.52982b8c.css",
     "static/js/main.40ae7ca7.js"
   ]
 }
