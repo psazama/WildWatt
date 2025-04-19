@@ -1,6 +1,93 @@
+/* Global Reset + Base Styles */
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: #ffffff;
-  color: #333;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  line-height: 1.6;
 }
+
+/* Utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: #111827;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form elements */
+input, textarea {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  background-color: #facc15;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #fde047;
+}
+
+/* Section Styling */
+section {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 1.5rem; }
+  .container { padding: 1rem; }
+}
+
