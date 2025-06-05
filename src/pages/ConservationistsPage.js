@@ -1,0 +1,35 @@
+// src/pages/ConservationistsPage.js
+import React from 'react';
+import Section from '../components/Section';
+
+export default function ConservationistsPage() {
+  return (
+    <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
+      <Section title="Information for Conservationists">
+        <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
+          Clean energy is transforming our landscapes – and conservation professionals have a vital role to ensure this transformation benefits ecosystems rather than harms them. WildWatt welcomes conservationists, ecologists, and wildlife advocates to partner with renewable energy projects, bringing your expertise to the table. On this page, we outline ways you can engage with solar and wind developments to advance your conservation mission. From collaboration models and data-sharing opportunities to real-world case studies and monitoring techniques, discover how conservation and clean energy can work hand-in-hand.
+        </p>
+<h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginTop: '2rem' }}>Why Engage with Renewable Energy?</h3>
+<p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
+The renewable energy boom presents both a challenge and an opportunity for conservation. On one hand, large-scale solar and wind projects, if poorly sited, can fragment habitats or pose risks to species (for example, wind turbines can be hazardous to birds and bats, and solar farms can displace native vegetation). On the other hand, these same projects can be harnessed as forces for conservation gains – if conservationists are involved early and often. By proactively engaging, you can help steer renewable projects to lower-impact areas, design wildlife protections, and even create new habitat on site. Moreover, climate change is a dire threat to biodiversity (two-thirds of North American bird species are vulnerable to extinction if warming continues unchecked), so speeding the adoption of wildlife-friendly clean energy is directly aligned with conservation goals. In short, we need renewable energy for the climate, and we need to do it in a way that supports nature – your expertise is the bridge to make that happen.
+</p>
+<h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginTop: '2rem' }}>Case Studies:</h3>
+<p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}><strong>Case Study 1: Pollinator-Friendly Solar in the Midwest</strong><br />
+        In Minnesota, a collaboration between nonprofits (like Fresh Energy and local prairies advocates), academic researchers, and solar developers led to widespread adoption of pollinator habitat at solar sites. Research at several solar farms showed a 300% increase in flowering plant species and a 400% increase in pollinators within two years of establishing native prairie under the panels. Conservationists involved provided seed mix expertise and monitoring; developers in turn found the vegetation improved stormwater management and community acceptance. The success led to Minnesota being the first state with a formal “pollinator-friendly solar” standard. Key takeaway: Conservation input turned an energy infrastructure into a prairie restoration opportunity, creating a model now spreading to other states.</p>
+
+        <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}><strong>Case Study 2: Raptors and Wind Energy in California</strong><br />
+        In California’s Kern County, a major wind developer (EDF Renewables) partnered with Audubon California and Defenders of Wildlife to address concerns about wind turbines and raptor collisions, particularly for the Swainson’s Hawk. Together they formed the Swainson’s Hawk Conservation Action Agreement. Conservation biologists helped identify hawk nesting and foraging areas, and the wind company funded habitat improvements (like rodent control away from turbines to avoid attracting hawks, and planting hawk-friendly foraging fields further from turbines). They also implemented enhanced monitoring – using observers and new radar tech during peak migration. As a result, the project continued to operate while mitigating impacts on the hawks, and even gathering new data on hawk movements. Key takeaway: Through early dialogue and targeted actions, an endangered species concern was managed, demonstrating that wind development and species protection can progress together.</p>
+
+        <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}><strong>Case Study 3: Bats and Wind – Adaptive Management</strong><br />
+        At a wind farm in Pennsylvania, post-construction monitoring found higher-than-expected bat mortality, especially among migratory tree bat species. The wind operator engaged a team of bat experts and the Bat Conservation International organization to devise solutions. They trialed raising cut-in speeds during the fall migration months and later installed experimental acoustic bat deterrents on several turbines. Over two years, they documented bat fatality reductions of around 50% with curtailment alone, and even greater reductions (~70%) on turbines with the new deterrent devices (as compared to control turbines). The company voluntarily made these measures permanent and shared the results at industry conferences and in a public report. Key takeaway: When confronted with wildlife issues, a collaborative, science-driven response not only solved the problem but created knowledge to benefit other wind farms. Conservationists were key in both identifying the issue and formulating the adaptive management strategy.</p>
+
+        <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}><strong>Case Study 4: Community Solar Grazing and Bird Habitat in New York</strong><br />
+        A solar developer in New York partnered with a local Audubon chapter and a sheep farming co-op to turn a utility-scale solar array into a multi-use site. The project incorporated native meadow habitat around the panels, and at the urging of Audubon, they also installed a native shrub hedgerow along one side to provide songbird habitat. A flock of sheep now grazes the site (managed by a local farmer), controlling vegetation naturally. Audubon volunteers conduct spring and fall bird surveys on the site, which has recorded over 60 bird species, including grassland sparrows nesting in the solar meadow. The developer touts these outcomes to illustrate how community-supported solar can deliver ecological benefits. Key takeaway: By thinking outside the box – bringing in agriculture and bird conservation – a solar farm became more than an energy facility; it’s now part of the agricultural and wildlife fabric of the community.</p>
+
+        <p style={{ fontSize: '1.1rem' }}>These case studies highlight the many roles conservationists can play: technical expert, watchdog, creative problem-solver, and bridge-builder between stakeholders. Your involvement can ensure that each project not only minimizes harm but actively enhances local conservation.</p>
+
+      </Section>
+    </div>
+  );
+}
+
